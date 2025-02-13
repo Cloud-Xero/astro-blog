@@ -38,6 +38,9 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+    resolve: {
+      preserveSymlinks: true
+    }
   },
   scopedStyleStrategy: "where",
   experimental: {
