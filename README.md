@@ -1,5 +1,17 @@
 # XeLog 📄
 
+## Tasks
+- [ ] my-logで管理している画像をpublicに簡単にコピーさせるシェル
+- [ ] ESLint, Prettier廃止してBiomeを導入
+- [ ] Husky廃止してLeft Hookの導入
+- [ ] Miseの設定ファイルを入れてNodeのバージョンを固定する
+- [ ] 独自ドメインを取得
+- [ ] デプロイ（本場公開）
+- [ ] リファクタリング
+- [ ] ロゴの変更
+- [ ] npm 廃止して pnpm を使用する
+
+
 ![AstroPaper](public/astropaper-og.jpg)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -80,8 +92,8 @@ Inside of AstroPaper, you'll see the following folders and files:
 │   │   └── socialIcons.ts
 │   ├── components/
 │   ├── content/
-│   │   |  blog/
-│   │   |    └── some-blog-posts.md /my-log/blog/en/* 内の記事も参照している（シンボリックリンク）
+│   │   │  blog/
+│   │   │    └── some-blog-posts.md /my-log/blog/en/* 内の記事も参照している（シンボリックリンク）
 │   │   └── config.ts
 │   ├── layouts/
 │   └── pages/
@@ -197,14 +209,4 @@ All commands are run from the root of the project, from a terminal:
 
 > **_Warning!_** Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
 
-## ✨ Feedback & Suggestions
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2023
-
----
-
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
